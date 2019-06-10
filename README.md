@@ -31,7 +31,7 @@ NOTE: If you are using pkgsrc in a non NetBSD system, replace `make` with
 Credits
 -------
 
-* `cannonball` is developed and maintained by Chris White and Arun Horne.
+* Cannonball is developed and maintained by Chris White and Arun Horne.
 * Thanks to `nia@` for  suggesting fixes to the package.
 
 License
