@@ -1,7 +1,7 @@
 cannonball-pkgsrc
 =================
 
-NetBSD pkgsrc script for script for Cannonball: An Enhanced OutRun Engine.
+NetBSD pkgsrc script for Cannonball: An Enhanced OutRun Engine.
 
 You can find Cannonball [here][1]
 
