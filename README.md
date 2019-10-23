@@ -1,11 +1,9 @@
 cannonball-pkgsrc
 =================
 
-NetBSD pkgsrc script for Cannonball: An Enhanced OutRun Engine.
+NetBSD [pkgsrc][3] script for Cannonball: An Enhanced OutRun Engine.
 
 You can find Cannonball [here][1]
-
-NOTE: This package is not yet available in the pkgsrc tree.
 
 Installation
 ------------
@@ -41,3 +39,4 @@ BSD 2-clause. See LICENSE.
 
 [1]: https://github.com/djyt/cannonball/wiki
 [2]: https://github.com/djyt/cannonball
+[3]: http://www.pkgsrc.se/emulators/cannonball
