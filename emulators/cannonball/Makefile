@@ -1,7 +1,7 @@
-# $NetBSD: Makefile,v 1.19 2023/01/22 16:28:24 ryoon Exp $
+# $NetBSD: Makefile,v 1.26 2024/10/04 03:49:21 ryoon Exp $
 
 DISTNAME=	cannonball-0.34
-PKGREVISION=	8
+PKGREVISION=	14
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_GITHUB:=djyt/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
@@ -17,7 +17,7 @@ USE_TOOLS+=		pkg-config
 USE_CMAKE=		yes
 CONFIGURE_DIRS=		build
 CMAKE_ARG_PATH=		${WRKSRC}/cmake
-CMAKE_ARGS+=		-DTARGET=linux.cmake
+CMAKE_CONFIGURE_ARGS+=		-DTARGET=linux.cmake
 
 TOOL_DEPENDS+=	icoutils-[0-9]*:../../graphics/icoutils
 
